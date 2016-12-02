@@ -1,0 +1,118 @@
+TASK com.example.maick.revisaocarro id=167
+  ACTIVITY com.example.maick.revisaocarro/.CarrosActivity 9d86c5b pid=22378
+    Local FragmentActivity 4d7f543 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@d84e0f0
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@d84e0f0
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.DecorView{7bd1669 V.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{68cb8ee V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{57718f G.E..... ... 0,0-0,0 #10203e8 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{d6f1c1c V.E..... ... 0,0-1080,1776}
+            android.support.v7.widget.FitWindowsLinearLayout{c87b025 V.E..... ... 0,0-1080,1776 #7f0c0058 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{f0f75fa G.E..... ... 0,0-0,0 #7f0c0059 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{8e397ab V.E..... ... 0,0-1080,1776 #1020002 android:id/content}
+                android.support.design.widget.CoordinatorLayout{a5fde08 V.ED.... ... 0,0-1080,1776}
+                  android.support.design.widget.AppBarLayout{2a829a1 V.E..... ... 0,72-1080,240}
+                    android.support.v7.widget.Toolbar{1cef7c6 V.E..... ... 0,0-1080,168 #7f0c006c app:id/toolbar}
+                      android.widget.TextView{dc20387 V.ED.... ... 48,43-225,124}
+                      android.support.v7.widget.ActionMenuView{a18d2b4 V.E..... ... 1080,0-1080,168}
+                  android.widget.RelativeLayout{7fcbedd V.E..... ... 0,240-1080,1776 #7f0c0088 app:id/content_carros}
+                    android.widget.ScrollView{4b2ca52 VFED.V.. ... 48,48-1032,1488}
+                      android.widget.LinearLayout{7315123 V.E..... ... 0,0-984,0}
+                        android.widget.ListView{aca6620 V.ED.VCL ... 0,0-984,0 #7f0c0089 app:id/lista_v}
+                  android.support.design.widget.FloatingActionButton{b6bd9 VFED..C. ... 864,1560-1032,1728 #7f0c0078 app:id/fab}
+        android.view.View{28f399e V.ED.... ... 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+
+  ACTIVITY com.example.maick.revisaocarro/.AlterarCarros 9459729 pid=22378
+    Local FragmentActivity 90ccebe State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@8bddc7f
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@8bddc7f
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.DecorView{b3fc44c I.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{6bdec95 V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{d3151aa G.E..... ... 0,0-0,0 #10203e8 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{85dc19b V.E..... ... 0,0-1080,1776}
+            android.support.v7.widget.FitWindowsLinearLayout{9cad938 V.E..... ... 0,0-1080,1776 #7f0c0058 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{2ddbd11 G.E..... ... 0,0-0,0 #7f0c0059 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{42ade76 V.E..... ... 0,0-1080,1776 #1020002 android:id/content}
+                android.support.design.widget.CoordinatorLayout{b4cdc77 V.ED.... ... 0,0-1080,1776}
+                  android.support.design.widget.AppBarLayout{5f050e4 V.E..... ... 0,72-1080,240}
+                    android.support.v7.widget.Toolbar{450194d V.E..... ... 0,0-1080,168 #7f0c006c app:id/toolbar}
+                      android.widget.TextView{c5e6c02 V.ED.... ... 48,43-405,124}
+                      android.support.v7.widget.ActionMenuView{4a8c913 V.E..... ... 1080,0-1080,168}
+                  android.widget.RelativeLayout{d39750 V.E..... ... 0,240-1080,1776 #7f0c0082 app:id/content_alterar_carros}
+                    android.support.v7.widget.AppCompatEditText{978d83 VFED..CL ... 48,258-678,394 #7f0c0083 app:id/nome_a}
+                    android.support.v7.widget.AppCompatEditText{4d4bc32 VFED..CL F.. 48,433-678,569 #7f0c0084 app:id/marca_a}
+                    android.support.v7.widget.AppCompatButton{3f75b00 VFED..C. ... 720,906-984,1050 #7f0c0085 app:id/button}
+                    android.support.v7.widget.AppCompatEditText{bef39 VFED..CL ... 48,626-678,762 #7f0c0086 app:id/modelo_a}
+                    android.support.v7.widget.AppCompatTextView{a11fd49 V.ED.... ... 48,117-362,190 #7f0c0087 app:id/textView}
+        android.view.View{44b464e V.ED.... ... 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+
+  ACTIVITY com.example.maick.revisaocarro/.CarrosActivity a298c75 pid=22378
+    Local FragmentActivity 3bdf5ac State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@1cce36f
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@1cce36f
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.DecorView{862d87c I.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{bf42505 V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{119795a G.E..... ... 0,0-0,0 #10203e8 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{6e478b V.E..... ... 0,0-1080,1776}
+            android.support.v7.widget.FitWindowsLinearLayout{9430068 V.E..... ... 0,0-1080,1776 #7f0c0058 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{4170c81 G.E..... ... 0,0-0,0 #7f0c0059 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{65d126 V.E..... ... 0,0-1080,1776 #1020002 android:id/content}
+                android.support.design.widget.CoordinatorLayout{a77d167 V.ED.... ... 0,0-1080,1776}
+                  android.support.design.widget.AppBarLayout{37bbb14 V.E..... ... 0,72-1080,240}
+                    android.support.v7.widget.Toolbar{426efbd V.E..... ... 0,0-1080,168 #7f0c006c app:id/toolbar}
+                      android.widget.TextView{acdd9b2 V.ED.... ... 48,43-225,124}
+                      android.support.v7.widget.ActionMenuView{3a61d03 V.E..... ... 1080,0-1080,168}
+                  android.widget.RelativeLayout{de37480 V.E..... ... 0,240-1080,1776 #7f0c0088 app:id/content_carros}
+                    android.widget.ScrollView{257cab9 VFED.V.. ... 48,48-1032,1488}
+                      android.widget.LinearLayout{33bdefe V.E..... ... 0,0-984,144}
+                        android.widget.ListView{4e3865f VFED.VCL F.. 0,0-984,144 #7f0c0089 app:id/lista_v}
+                          android.support.v7.widget.AppCompatCheckedTextView{44b58ac V.ED.... ... 0,-1-984,143 #1020014 android:id/text1}
+                  android.support.design.widget.FloatingActionButton{a215975 VFED..C. ... 864,1560-1032,1728 #7f0c0078 app:id/fab}
+        android.view.View{ef2ed0a V.ED.... ... 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+
+  ACTIVITY com.example.maick.revisaocarro/.LoginActivity 676cfe4 pid=22378
+    Local FragmentActivity 83e048a State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@164297b
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@164297b
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.DecorView{c6b5398 I.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{cbb17f1 V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{25acfd6 G.E..... ... 0,0-0,0 #10203e8 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{181e257 V.E..... ... 0,72-1080,1776}
+            android.support.v7.widget.ActionBarOverlayLayout{d8e1144 V.E..... ... 0,0-1080,1704 #7f0c005b app:id/decor_content_parent}
+              android.support.v7.widget.ContentFrameLayout{d58422d V.E..... ... 0,168-1080,1704 #1020002 android:id/content}
+                android.widget.LinearLayout{e8c1362 V.E..... ... 0,0-1080,1536}
+                  android.widget.ProgressBar{f584cf3 G.ED.... ... 0,0-0,0 #7f0c006d app:id/login_progress}
+                  android.widget.LinearLayout{6fcfdb0 V.E..... ... 48,48-1032,930 #7f0c006f app:id/email_login_form}
+                    android.support.design.widget.TextInputLayout{523d429 V.ED.... ... 0,0-984,169}
+                      android.support.v7.widget.AppCompatAutoCompleteTextView{5f23581 VFED..CL ... 0,33-984,169 #7f0c0071 app:id/email}
+                    android.support.design.widget.TextInputLayout{b9c03ae V.ED.... ... 0,169-984,338}
+                      android.support.v7.widget.AppCompatEditText{45d2d68 VFED..CL F.. 0,33-984,169 #7f0c0072 app:id/password}
+                    android.support.v7.widget.AppCompatButton{7344626 VFED..C. ... 0,386-984,530 #7f0c0074 app:id/email_sign_in_button}
+                    android.support.v7.widget.AppCompatButton{605a267 VFED..C. ... 0,578-984,722 #7f0c0079 app:id/botao_reg}
+              android.support.v7.widget.ActionBarContainer{120c54f V.ED.... ... 0,0-1080,168 #7f0c005c app:id/action_bar_container}
+                android.support.v7.widget.Toolbar{12c44dc V.E..... ... 0,0-1080,168 #7f0c005d app:id/action_bar}
+                  android.widget.TextView{afc89e5 V.ED.... ... 48,43-405,124}
+                  android.support.v7.widget.ActionMenuView{ba8acba V.E..... ... 1080,0-1080,168}
+                android.support.v7.widget.ActionBarContextView{d4e676b G.E..... ... 0,0-0,0 #7f0c005e app:id/action_context_bar}
+        android.view.View{5a6d2c8 V.ED.... ... 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{af0df61 V.ED.... ... 0,0-1080,72 #102002f android:id/statusBarBackground}

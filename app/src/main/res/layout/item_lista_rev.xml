@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/item_foto_rev"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="93dp"
+        android:weightSum="1"
+        android:layout_weight="0.94"
+        android:layout_height="122dp">
+
+        <TextView
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_nome_rev"
+            android:text="Nome"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_data_rev"
+            android:text="Data que foi revisado: "
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.20"/>
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_km_rev"
+            android:text="KM para revisão:"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.02"/>
+
+        <TextView
+            android:text="Data para revisão: "
+            android:layout_width="match_parent"
+            android:id="@+id/item_dataR"
+            android:layout_marginTop="10dp"
+            android:layout_height="29dp"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
